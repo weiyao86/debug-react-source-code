@@ -1,0 +1,37 @@
+html,body{
+    height:100%;
+    margin:0;
+    padding: 0;
+    font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+    user-select: none;
+}
+#app{
+    background: rgba(0,0,0,.85);
+    height: inherit;
+}
+.wrap{
+    height: inherit;
+    width: inherit;
+    color:#fff;
+}
+.content{
+    position: fixed;
+    /* top:10%;
+    right: 10%;
+    left: 10%;
+    bottom: 10%; */
+    width:300px;
+    height:300px;
+    transform: translate(20px,20px);
+    transition: translate .3s ease;
+    text-align: center;
+    border:2px solid #fff;
+    font-size: 30px;
+    font-weight: 600;
+    background: url("https://file07.16sucai.com/ppt/bigpic/2019/08/18/wkffefvfyi4.png")no-repeat center transparent;
+}
+
+.link{
+    color: turquoise;
+    font-size: 30px;
+}
